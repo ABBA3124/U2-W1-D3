@@ -1,0 +1,41 @@
+body {
+  padding: 25px 70px;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px 50px;
+  background-color: #faf5e2;
+  border-radius: 30px;
+}
+.honeyArticle {
+  width: 100%;
+}
+.title {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+.bold {
+  font-weight: bold;
+}
+.titolo {
+  font-size: 2em;
+  margin-top: 80px;
+}
+.contenuto {
+  padding: 15px;
+}
+.contenutoArticolo {
+  font-size: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+  article {
+    flex-direction: column-reverse;
+  }
+  .contenuto {
+    display: flex;
+    flex-direction: column;
+  }
+}
