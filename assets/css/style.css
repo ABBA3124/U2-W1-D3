@@ -1,0 +1,15 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  padding: 15px;
+  background-image: url("../img/sfondo.png");
+  background-position: center center;
+}
+
+@media screen and (min-width: 800px) {
+}
