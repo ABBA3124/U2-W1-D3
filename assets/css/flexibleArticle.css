@@ -30,7 +30,7 @@ article {
   font-size: 21px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   article {
     flex-direction: column-reverse;
   }
