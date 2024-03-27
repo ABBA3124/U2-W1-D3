@@ -74,7 +74,7 @@ article > div {
   background-color: antiquewhite;
   border-radius: 50px;
   overflow: hidden;
-  width: 400px;
+  width: 338px;
 }
 .logoProdotto {
   background-image: url(/assets/img/honey.jpg);
@@ -117,4 +117,54 @@ body main > div {
 }
 body main div {
   margin-top: 20px;
+}
+/* inizio articolo */
+.h1 {
+  color: #612406;
+  font-weight: bold;
+  font-size: 54px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: 800;
+}
+.articoloooooo {
+  padding: 0px 18px;
+}
+.articoloooooo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px 50px;
+  background-color: #faf5e2;
+  border-radius: 30px;
+}
+.honeyArticle {
+  width: 100%;
+}
+.title {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+.bold {
+  font-weight: bold;
+}
+.titolo {
+  font-size: 2em;
+  margin-top: 80px;
+}
+.contenitoreArticolo {
+  padding: 15px;
+}
+.contenutoArticolo {
+  font-size: 21px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .articoloooooo {
+    flex-direction: column-reverse;
+  }
+  .contenuto {
+    display: flex;
+    flex-direction: column;
+  }
 }
