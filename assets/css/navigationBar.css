@@ -1,0 +1,44 @@
+.navBackground {
+  background-color: #faf5e2;
+  width: 100%;
+  padding: 15px;
+}
+nav {
+  display: flex;
+  gap: 1em;
+  padding-block: 1em;
+  align-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #612406;
+  font-weight: bold;
+}
+
+.logo {
+  min-width: 40px;
+  max-width: 60px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 15px;
+}
+@media only screen and (max-width: 480px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+.bottoniPadding {
+  background-color: #f3df85;
+  border-radius: 100px;
+  align-self: center;
+  text-align: center;
+  flex-grow: 1;
+}
+.shop {
+  margin-left: 20px;
+}
